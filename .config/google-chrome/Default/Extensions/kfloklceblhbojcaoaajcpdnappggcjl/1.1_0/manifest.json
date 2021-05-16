@@ -1,0 +1,34 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icons/19x19.png",
+         "38": "icons/38x38.png"
+      },
+      "default_title": "Take a screenshot"
+   },
+   "commands": {
+      "save": {
+         "description": "Take a screenshot",
+         "suggested_key": {
+            "default": "Alt+X"
+         }
+      }
+   },
+   "description": "Download the page screen with just one click",
+   "icons": {
+      "128": "icons/128x128.png",
+      "16": "icons/16x16.png",
+      "48": "icons/48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuPhs7N1AHt3KpK0iQ8vNVKOQ3mVpw3z76ApUvCy0yvf4PbSz9n1XIfqVpUipO9VTbU+2xIlB49ygUe2/dlv36tM+O54SOo4ZPjPUsHz2nB91O8G/YS2WmBVxq1o/5ShOM1bj55PDdeGK4iDHb0wrB8coYSSJ+huBMnnRvtGgOFcrjvRsEOCq5X2sJ1oJaIXSd/FxrLjcQoX1WDn7W9Fs7dPILJumrgNdV/B7n0AwLTTzXhLs8oVqNvpAgYKrUkp1NeTcB2Bq6OdK5R02KSbiv2oiuUG2Wc2O3urJTAUPxeTb6Hx/BvkD/vdi6G6znlfg6MUJqilAOFeoPuf5l1cTbQIDAQAB",
+   "manifest_version": 2,
+   "name": "Easy Screenshot",
+   "permissions": [ "tabs", "\u003Call_urls>", "downloads" ],
+   "short_name": "Easy Screenshot",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

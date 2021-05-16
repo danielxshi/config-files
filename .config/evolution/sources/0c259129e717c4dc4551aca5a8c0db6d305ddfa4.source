@@ -1,0 +1,57 @@
+[Data Source]
+DisplayName=danielshi@hotmail.ca
+Enabled=true
+Parent=abd34112df3806e7ec9fac85a7dbe9235f6bd2b2
+
+[Mail Account]
+BackendName=imapx
+IdentityUid=b2a3aec28a12baf25eb049e78897e985ec7569e8
+ArchiveFolder=
+NeedsInitialSetup=true
+MarkSeen=inconsistent
+MarkSeenTimeout=1500
+
+[Authentication]
+Host=imap-mail.outlook.com
+Method=XOAUTH2
+Port=993
+ProxyUid=system-proxy
+RememberPassword=true
+User=danielshi@hotmail.ca
+CredentialName=
+IsExternal=false
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Offline]
+StaySynchronized=false
+
+[Imapx Backend]
+FilterInbox=true
+StoreChangesInterval=3
+LimitByAge=false
+LimitUnit=years
+LimitValue=1
+UseMultiFetch=false
+CheckAll=false
+CheckSubscribed=false
+ConcurrentConnections=3
+FetchOrder=ascending
+FilterAll=false
+FilterJunk=false
+FilterJunkInbox=false
+Namespace=
+RealJunkPath=
+RealTrashPath=
+ShellCommand=ssh -C -l %u %h exec /usr/sbin/imapd
+UseIdle=true
+UseNamespace=false
+UseQresync=false
+UseRealJunkPath=false
+UseRealTrashPath=false
+UseShellCommand=false
+UseSubscriptions=false
+IgnoreOtherUsersNamespace=false
+IgnoreSharedFoldersNamespace=false
+FullUpdateOnMeteredNetwork=true

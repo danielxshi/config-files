@@ -1,0 +1,7 @@
+[Added Associations]
+image/jpeg=org.gnome.Nautilus.desktop;
+application/zip=org.gnome.Nautilus.desktop;
+
+[Default Applications]
+text/html=notion-desktop.desktop
+x-scheme-handler/notion=notion-desktop.desktop

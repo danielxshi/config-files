@@ -1,0 +1,26 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icons/autoscroll.png",
+      "default_title": ""
+   },
+   "content_scripts": [ {
+      "js": [ "js/simple_autoscroll.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Simple speed-customizable auto scroll",
+   "icons": {
+      "128": "icons/autoscroll.png",
+      "48": "icons/autoscroll.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjpPpCqhCQdk7ss0JNJ3V97EHwDIsceooI2M82cQjhHej78fpD1ak5GPuqkCWHx21X6qX+uZEEtzCoHYP2WvXVp0HSN98hBV6USphfPREpvYb1Blf6O07d5HgwEhGrzR7o3E6X5ZzKn7ohN5v32o+1LnOIxTQyeAJO6F+XuvNKVwsT2miuhT26f+jizaFpVXxyDnKbXxyXFyZFTjNtheauRwNS7Vcq/tebDkli8t+QW/YTpt4oZp64ibnFYxSOSY1zzLiv+wZVuQgZ795Ub8rHDz0NQRqWLvLErywp246J/Qd4/bY8ObOyV/DxR0577/u4kRKxiRntBsQEfJ02kUYWQIDAQAB",
+   "manifest_version": 2,
+   "name": "Simple Auto Scroll",
+   "options_page": "options.html",
+   "permissions": [ "*://*/*", "storage", "\u003Call_urls>" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.1.4"
+}

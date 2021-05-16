@@ -1,0 +1,12 @@
+2021/05/14-15:40:05.931 1625 Reusing MANIFEST /home/daniel/.config/notion-desktop/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/14-15:40:05.931 1625 Recovering log #4
+2021/05/14-15:40:05.950 1625 Reusing old log /home/daniel/.config/notion-desktop/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/000004.log 
+2021/05/14-15:40:06.975 16a6 Level-0 table #8: started
+2021/05/14-15:40:06.986 16a6 Level-0 table #8: 1510752 bytes OK
+2021/05/14-15:40:06.987 16a6 Delete type=0 #4
+2021/05/14-15:40:10.278 16a6 Compacting 1@1 + 1@2 files
+2021/05/14-15:40:10.295 16a6 Generated table #9@1: 10129 keys, 1859468 bytes
+2021/05/14-15:40:10.295 16a6 Compacted 1@1 + 1@2 files => 1859468 bytes
+2021/05/14-15:40:10.296 16a6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/14-15:40:10.296 16a6 Delete type=2 #5
+2021/05/14-15:40:10.296 16a6 Delete type=2 #8
